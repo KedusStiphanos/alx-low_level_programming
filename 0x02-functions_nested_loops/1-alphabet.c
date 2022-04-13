@@ -1,4 +1,8 @@
 #include "main.h"
+
+/**
+ * print-alphabet - prints lc alphabet
+ */
 void print_alphabet(void)
 {
 char c;
