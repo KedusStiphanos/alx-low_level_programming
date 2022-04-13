@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print-alphabet - prints lc alphabet
- * Description: prints alphabeet
+ * print_alphabet - prints the alphabet in lowecase, followed by a new line.
  */
 void print_alphabet(void)
 {
