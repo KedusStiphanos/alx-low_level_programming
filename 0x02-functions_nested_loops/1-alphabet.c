@@ -2,6 +2,7 @@
 
 /**
  * print-alphabet - prints lc alphabet
+ * Description: prints alphabeet
  */
 void print_alphabet(void)
 {
