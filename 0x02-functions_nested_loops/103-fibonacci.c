@@ -20,7 +20,7 @@ while (1)
 f1 = f2;
 f2 = s;
 }
-printf("%.0f\n",ts);
+printf("%.0f\n", ts);
 
 return (0);
 }
