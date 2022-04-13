@@ -12,7 +12,7 @@ float ts;
 
 while (1)
 {
-	s = f1+ f2
+	s = f1 + f2;
 		if (s > 4000000)
 			break;
 	if ((s % 2) == 0)
