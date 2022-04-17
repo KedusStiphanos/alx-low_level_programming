@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * print_numbers - print numbers
+ *
  * Return: Always 0.
  */
-void print-numbers(void)
+void print_numbers(void)
 {
 int i;
 
