@@ -13,7 +13,8 @@ for (i = 0; s[i] != '\0'; i++)
 {
 	continue;
 }
-for (j = i - 1; j >= 0; j--)
+i = i - 1;
+for (j = i; j >= 0; j--)
 {
 		_putchar(s[j]);
 }
