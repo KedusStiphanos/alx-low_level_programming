@@ -12,5 +12,4 @@ char *string_toupper(char *);
 char *leet(char *);
 char *rot13(char *);
 char *_strstr(char *haystack, char *needle);
-char print_number(int n);
-#endif
+char
