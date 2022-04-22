@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(vois)
+int main(void)
 {
 	int n, a[5], *p;
 
