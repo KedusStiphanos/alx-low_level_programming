@@ -25,6 +25,6 @@ for (i = 0; s[i] != '\0'; i++)
 		}
 	}
 }
-hi[i] = '\0';
-return (hi);
+s[i] = '\0';
+return (s);
 }
