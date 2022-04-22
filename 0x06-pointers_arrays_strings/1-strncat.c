@@ -10,7 +10,7 @@
  *
  * Return: My return
  */
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, c;
 
