@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncat - write a functino that concatenates two strings. it will use 
  *            at most n bytes from src
@@ -9,7 +10,7 @@
  *
  * Return: My return
  */
-char *_strncat(char *dest, char *src, int n)
+char _strncat(char *dest, char *src, int n)
 {
 int i, c;
 
