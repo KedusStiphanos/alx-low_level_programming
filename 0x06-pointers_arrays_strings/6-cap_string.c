@@ -11,10 +11,10 @@ char *cap_string(char *entry)
 {
 int t, i, c;
 
-char chars[]={' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
+char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
 t = 32;
 
-for (i= 0; entry[i] != '\0'; i++)
+for (i = 0; entry[i] != '\0'; i++)
 {
 	if (entry[i] >= 'a' && entry[i] <= 'z')
 	{
