@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * print_number - concatenates two strings
  *
- * @dest: Second string
- * @src: first string
- *
+ * @n: integer to be printed
+ * 
  * Return: pointer to resulting string dest
  */
 
