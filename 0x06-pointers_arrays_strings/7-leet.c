@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * leet - write a functinon that capitalizes all words of a string
+ * leet - write a functinon that encodes a string into 1337
  * 
- * @changed: input string
+ * @changed: This is input string
  *
- * Return: My return
+ * Return: String converted to 1337
  */
 
 char *leet(char *changed)
@@ -15,7 +15,7 @@ char m[] = {'a', 'e', 'o', 't', 'l', '\0'};
 char n[] = {'A', 'E', 'O', 'T', 'L', '\0'};
 char o[] = {'4', '3', '0', '7', '1', '\0'};
 
-for (i = 0; changed[i] != '\0'; i++)
+for (i = 0; changed[i] != '\0'; ++i)
 {
 	for (j = 0; j < 5; j++)
 	{
