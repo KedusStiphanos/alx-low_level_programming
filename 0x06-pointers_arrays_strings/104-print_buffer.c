@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_line - encodes strings using rot13.
- * @c: This is input string.
- * @s: second number
- * @l: buffer for result
+ * print_line - prints a s bytes of buffer
+ * @c: buffer to print
+ * @s: bytes of buffer to print
+ * @l: line of buffer to print
  *
  * Return: void
  */
@@ -29,7 +29,6 @@ void print_line(char *c, int s, int l)
 			putchar('.');
 	}
 }
-
 
 /**
  * print_buffer - prints a buffer
