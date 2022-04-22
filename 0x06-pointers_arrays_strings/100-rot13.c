@@ -15,9 +15,9 @@ char n[] = {'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A'
 
 for (i = 0; s[i] != '\0'; i++)
 {
-	for (c = 0; m[c] != '\0' ; c++)
+	for (c = 0; c < 53; c++)
 	{
-		if (s[i] == m[c])
+		if (m[c] == s[i])
 		{
 		        s[i] = n[c];
 			break;
