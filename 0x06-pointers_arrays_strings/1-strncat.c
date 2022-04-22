@@ -10,7 +10,6 @@
  *
  * Return: My return
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 int i, c;
@@ -24,7 +23,7 @@ i++;
 }
 if (c < n)
 {
-	dest[i] = '\0';
+dest[i] = '\0';
 }
 return (dest);
 }
