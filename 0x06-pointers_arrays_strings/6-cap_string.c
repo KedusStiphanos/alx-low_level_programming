@@ -16,7 +16,7 @@ t = 32;
 
 for (i = 0; entry[i] != '\0'; i++)
 {
-	if (entry[i] >= 'index' && entry[i] <= 'z')
+	if (entry[i] >= 'a' && entry[i] <= 'z')
 	{
 		entry[i] = entry[i] - t;
 	}
