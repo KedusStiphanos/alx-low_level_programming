@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * print_number - concatenates two strings
- *
- * @n: integer to be printed
+ *print_number - prints an integer.
+ *only using the putchar function.
+ *noarrays and pointers.
+ * @n: integer to be printed.
  * 
- * Return: pointer to resulting string dest
+ * Return: void.
  */
-
 void print_number(int n)
 {
 	unsigned int num;
 	num = n;
 	if (n < 0)
-	{ _putchar(45);
+	{
+	       	_putchar(45);
 		num = -n;
 	}
 	if (num / 10)
