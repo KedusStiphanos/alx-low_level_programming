@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * swap_int - swaps two numbers
@@ -11,8 +11,7 @@
 void swap_int(int *a, int *b)
 
 {
-int x;
-x = *b;
+int x = *b;
 *b = *a;
 *a = x;
 }
