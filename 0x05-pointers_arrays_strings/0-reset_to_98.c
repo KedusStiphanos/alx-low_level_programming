@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * reset_to_98 - update number
