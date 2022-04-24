@@ -1,9 +1,11 @@
 #include "w"
+#include <stdio.h>
 
 /**
- * _atoi - rev string
- * @s: string
- * Return: int
+ * _atoi - rev string.
+ * @s: string.
+ *
+ * Return: int.
  */
 
 int _atoi(char *s)
