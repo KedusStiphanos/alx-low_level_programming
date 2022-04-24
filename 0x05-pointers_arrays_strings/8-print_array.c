@@ -1,22 +1,42 @@
-#include "w"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * print_array - prints n elements of an array of integers.
- * @a: pointer to array.
- * @n: number of array elements.
+ * main - random password generator for 101-crackme
  *
- * Return: void.
+ * Return: always 0
  */
-void print_array(int *a, int n)
+int main(void)
 {
-int i;
-for (i = 0; i < n; i++)
-{
-printf("%d", a[i]);
-if (i < (n - 1))
-{
-printf(", ");
-}
-}
-printf("\n");
+	int i, j, k, s;
+	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char p[58];
+
+	srand(time(NULL));
+	while (s != 2772)
+	{
+		i = k = s = 0;
+		while ((2772 - 122) > s)
+		{
+			j = rand() % 62;
+			p[i] = c[j];
+			s += c[j];
+			i++;
+		}
+		while (c[k])
+		{
+			if (c[k] == (2772 - s))
+			{
+				p[i] = c[k];
+				s += c[k];
+				i++;
+				break;
+			}
+			k++;
+		}
+	}
+	p[i] = '\0';
+	printf("%s", p);
+	return (0);
 }
