@@ -10,7 +10,7 @@
 
 int _atoi(char *s)
 {
-int i = 0, j, s = 1;
+int i = 0, j, k = 1;
 unsigned int r = 0;
 char n;
 
@@ -33,7 +33,7 @@ break;
 }
 i++;
 }
-if (s < 0)
-	r *= s;
+if (k < 0)
+	r *= k;
 return (r);
 }
