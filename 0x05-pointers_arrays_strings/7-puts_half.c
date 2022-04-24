@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * puts_half - rev string
@@ -11,7 +11,9 @@ int i, j;
 
 i = 0;
 while (str[i])
+{
 	i++;
+}
 j = i / 2;
 if (i % 2)
 j += 1;

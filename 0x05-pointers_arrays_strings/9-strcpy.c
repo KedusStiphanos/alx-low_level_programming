@@ -1,11 +1,11 @@
-#include "main.h"
-#include <stdio.h>
+#include "w"
 
 /**
  * _strcpy - rev string
  * @dest: character
  * @src: character 
- * Return: char
+ *
+ *  Return: pointer to dest.
  */
 char *_strcpy(char *dest, char *src)
 {

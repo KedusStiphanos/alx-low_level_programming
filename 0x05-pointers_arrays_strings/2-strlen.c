@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * _strlen - length of string
@@ -7,11 +7,11 @@
  */
 int _strlen(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (; s[i] != '\0'; i++)
 	{
-		continue;
+		;
 	}
 	return (i);
 }

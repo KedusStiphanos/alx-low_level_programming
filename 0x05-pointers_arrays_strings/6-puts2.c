@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * puts2 - rev string
@@ -7,16 +7,16 @@
  */
 void puts2(char *str)
 {
-int i, j;
+int i;
+
 i = 0;
-j = 0;
-while (str[i++])
+while (str[i] != '\0')
 {
-	j++;
-}
-for (i = 0; i < j; i += 2)
-{
-	_putchar(*(str + i));
+	if (i % 2 == 0)
+	{
+		_putchar(str[i]);
+	}
+	i++;
 }
 _putchar('\n');
 }

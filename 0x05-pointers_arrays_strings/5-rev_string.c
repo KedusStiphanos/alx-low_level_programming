@@ -1,4 +1,4 @@
-#include "main.h"
+#include "w"
 
 /**
  * rev_string - rev string
@@ -7,20 +7,22 @@
  */
 void rev_string(char *s)
 {
-int i, j;
-char a[500];
+int i, j, k, temp;
+
 i = 0;
-j = 0;
-while (*(s + i))
+while (s[i] != '\0')
 {
-	*(a + i) = *(s + i);
 	i++;
 }
-i = i - 1;
-while (i >= 0)
+k = 0;
+j = i - 1;
+
+while (k < j)
 {
-	*(s + i) = *(a + j);
-	j++;
-	i--;
+temp = s[k];
+s[k] = s[j];
+s[j] = temp;
+k++;
+j--;
 }
 }
