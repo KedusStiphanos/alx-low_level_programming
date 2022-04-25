@@ -10,8 +10,8 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 
-int i, j = n;
-
+int i, j;
+j = n;
 if (j > 0)
 {
 
