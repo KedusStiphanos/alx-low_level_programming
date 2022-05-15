@@ -11,4 +11,3 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 
 #endif  /* _HOLBERTON_H_ */
-© 2022 GitHub, Inc.
